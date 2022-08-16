@@ -44,18 +44,24 @@ body{
     margin-left: 100px;
     height: 600px;
 }
-.Feature{
+.feathead{
     display: flex;
     justify-content: center;
 }
-.Featureitems{
-    border: solid black;
-    border-width: .2px;
-    height: 60vh;
-    margin: 15px;
+.Feature{
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+
+    height: 50vh;
+    margin: 20px;
+    /* border: solid red; */
+}
+.FeatureitemsContainer{
+    border: solid black;
+    border-width: .2px;
+    margin: 30px;
+    padding: 10px;
+
     }
     .itemInfo{
         border: solid white;
@@ -63,8 +69,34 @@ body{
         text-align: center;
         background-color: cornflowerblue;
         color: black;
+        max-width: 300px;
     }
     .poloPic{
         width: 100%;
+        max-width: 300px;
     }
+    .shopbtn{
+        color: black;
+        font-weight: bolder;
+        background-color: blue;
+        border-radius: 40%;
+        padding: 5px;
+        margin-left: 640px;
 
+    }
+    .shopbtn:hover{
+        color: black;
+        font-weight: bolder;
+        background-color: lightseagreen;
+        border-radius: 40%;
+        padding: 5px;
+        
+    }
+    .itemshop{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        height: 50vh;
+        margin: 20px;
+        }
