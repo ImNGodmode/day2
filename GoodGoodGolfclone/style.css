@@ -1,0 +1,102 @@
+body{
+    height: 450vh;
+    background-color: lightblue;
+    color: black;
+}
+.navContainer{
+    border: solid black;
+    border-width: .2px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    width: 100%;
+    
+}
+.logo{
+    width: 250px; 
+    padding: 3px;
+    margin: 2px;
+}
+.menu{
+    display: inline-block;
+    width: 70px;
+    padding: 15px;
+    height: auto;
+}
+.smIcons{
+    width: 30px;
+    display: flex;
+    margin: 5px;
+}
+.smIconsContainer{
+    /* border: solid red;
+    border-width: 1px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.video{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 100px;
+    height: 600px;
+}
+.feathead{
+    display: flex;
+    justify-content: center;
+}
+.Feature{
+    display: flex;
+    justify-content: center;
+
+    height: 50vh;
+    margin: 20px;
+    /* border: solid red; */
+}
+.FeatureitemsContainer{
+    border: solid black;
+    border-width: .2px;
+    margin: 30px;
+    padding: 10px;
+
+    }
+    .itemInfo{
+        border: solid white;
+        height: 80px;
+        text-align: center;
+        background-color: cornflowerblue;
+        color: black;
+        max-width: 300px;
+    }
+    .poloPic{
+        width: 100%;
+        max-width: 300px;
+    }
+    .shopbtn{
+        color: black;
+        font-weight: bolder;
+        background-color: blue;
+        border-radius: 40%;
+        padding: 5px;
+        margin-left: 640px;
+
+    }
+    .shopbtn:hover{
+        color: black;
+        font-weight: bolder;
+        background-color: lightseagreen;
+        border-radius: 40%;
+        padding: 5px;
+        
+    }
+    .itemshop{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        height: 50vh;
+        margin: 20px;
+        }
