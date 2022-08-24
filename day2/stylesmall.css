@@ -1,0 +1,37 @@
+
+body{
+    background-color: lime;
+}
+.topcontainer{
+    border: solid rgb(0, 0, 0);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+.hulk{
+display: block;
+width: 100%;
+}
+.avengers{
+display: none;
+width: 50%;
+}
+.infinityWar{
+display: none;
+width: 33%;
+}
+.hulkSlam{
+    display: none;
+}
+.finalForm{
+    display: none;
+}
+.finalForm{
+    display: none;
+}
+.textBox{
+    border: solid rgb(0, 0, 0);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
