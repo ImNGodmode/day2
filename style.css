@@ -3,6 +3,11 @@ body{
     background-color: forestgreen;
     color: white;
 }
+.nav{
+    border: solid forestgreen;
+    width: 100vw;
+    height: 75px;
+}
 .topcontainer{
     border: solid rgb(255, 255, 255);
     height: 40vh;

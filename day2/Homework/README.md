@@ -1,2 +1,0 @@
-# Homework
- hmwk for perscholas
