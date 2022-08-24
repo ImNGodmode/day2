@@ -1,6 +1,7 @@
 
 body{
     background-color: forestgreen;
+    color: white;
 }
 .topcontainer{
     border: solid rgb(255, 255, 255);
@@ -32,4 +33,16 @@ width: 33%;
     height: 40vh;
     width: 100vw;
     display: flex;
+}
+.smallBox{
+    display: none;
+}
+.medBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.bigBox{
+    display: none;
 }
