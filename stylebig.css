@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: rgb(15, 253, 2);
+    background-image: url(https://cdn.shopify.com/s/files/1/1057/4964/products/avengers-endgame-vintage-movie-poster-original-1-sheet-27x41.jpeg?v=1563829726);
 }
 .nav{
     border: solid rgb(15, 253, 2);
@@ -40,6 +41,8 @@ body{
     height: 40vh;
     width: 100vw;
     display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 .hulk{
 display: none;
@@ -56,11 +59,16 @@ width: 33%;
 }
 .finalForm{
     display: flex;
-    color: white;
+    color: lime;
+    border: solid lime;
+    border-radius: 25px;
+    padding-left: 60px;
+    background-color: black;
     width: 33%;
     text-align: center;
     flex-wrap: wrap;
     font-size: 42px;
+
 }
 .hulkSnap{
     display: none;
@@ -90,4 +98,7 @@ width: 33%;
     align-items: center;
     justify-items: center;
 }
-   
+.descriptionBig{
+    background-color: black;
+    font-size: 35px;
+}
