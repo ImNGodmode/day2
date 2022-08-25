@@ -12,6 +12,46 @@ body{
     justify-content: center;
     align-items: center;
 }
+.hulkSmash{
+    display: block;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: forestgreen;
+}
+.hulkSmash:hover{
+    display: block;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: forestgreen;
+    color: black;
+    zoom: 1.25;
+}
+.nextPic{
+    display: none;
+}
+.saveTheWorld{
+    display: none;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+.saveTheWorld:hover{
+    display: none;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lime;
+    color: black;
+    zoom: 1.25;
+}
 .topcontainer{
     border: solid rgb(255, 255, 255);
     height: 40vh;
