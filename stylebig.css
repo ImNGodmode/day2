@@ -6,7 +6,34 @@ body{
     border: solid rgb(15, 253, 2);
     width: 100vw;
     height: 75px;
-    background-color: forestgreen;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hulkSmash{
+    display: none;
+}
+.nextPic{
+    display: none;
+}
+.saveTheWorld{
+    display: block;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+.saveTheWorld:hover{
+    display: block;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lime;
+    color: black;
+    zoom: 1.25;
 }
 .topcontainer{
     border: solid rgb(15, 253, 2);
