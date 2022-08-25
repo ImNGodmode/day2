@@ -63,25 +63,31 @@ width: 33%;
     font-size: 42px;
 }
 .hulkSnap{
-    display: block;
+    display: none;
     width: 33%;
     height: 100%;
     }
-    .textBox{
-        border: solid rgb(15, 253, 2);
-        height: 40vh;
-        width: 100vw;
-        display: flex;
-    }
-    .smallBox{
-        display: none;
-    }
-    .medBox{
-        display: none;
-    }
-    .bigBox{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-    }
+.hulkSnap1{
+    display: block;
+    width: 33%;
+    height: 100%;
+        }
+.textBox{
+    border: solid rgb(15, 253, 2);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+.smallBox{
+    display: none;
+}
+.medBox{
+    display: none;
+}
+.bigBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+   
