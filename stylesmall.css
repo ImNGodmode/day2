@@ -7,10 +7,66 @@ body{
     border: solid black;
     width: 100vw;
     height: 75px;
-    background-color: white;
+    background-color: lime;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hulkSmash{
+    display: none;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: forestgreen;
+}
+.hulkSmash:hover{
+    display: none;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: forestgreen;
+    color: black;
+    zoom: 1.25;
+}
+.nextPic{
+    display: block;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: lime;
+}
+.nextPic:hover{
+    display: block;
+    border: solid forestgreen;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: lime;
+    zoom: 1.25;
+}
+.saveTheWorld{
+    display: none;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+.saveTheWorld:hover{
+    display: none;
+    border: solid lime;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lime;
+    color: black;
+    zoom: 1.25;
 }
 .topcontainer{
     border: solid rgb(0, 0, 0);
@@ -36,7 +92,7 @@ width: 33%;
 .finalForm{
     display: none;
 }
-.finalForm{
+.hulkSnap{
     display: none;
 }
 .textBox{
