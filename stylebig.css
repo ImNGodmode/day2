@@ -6,6 +6,7 @@ body{
     border: solid rgb(15, 253, 2);
     width: 100vw;
     height: 75px;
+    background-color: forestgreen;
 }
 .topcontainer{
     border: solid rgb(15, 253, 2);

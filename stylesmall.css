@@ -3,6 +3,12 @@ body{
     background-color: lime;
     color: black;
 }
+.nav{
+    border: solid black;
+    width: 100vw;
+    height: 75px;
+    background-color: white;
+}
 .topcontainer{
     border: solid rgb(0, 0, 0);
     height: 40vh;

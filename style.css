@@ -4,9 +4,10 @@ body{
     color: white;
 }
 .nav{
-    border: solid forestgreen;
+    border: solid white;
     width: 100vw;
     height: 75px;
+    background-color: black;
 }
 .topcontainer{
     border: solid rgb(255, 255, 255);
